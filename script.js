@@ -155,8 +155,16 @@ const j = true , k = false;
 console.log(!j); // false
 console.log(!k); //true
 
+// 6. comparession operator
+x = 5;
+x == "5";// true because double isequal compare the value not datatype.
+x === "5";// false because triple is equal campare not only value but also data type.
 
+// 7, conditional operator 
+let company = prompt("which company created javascript?");
+if (company == 'netscape'){
+  console.log("you are right");
+}else{
+  console.log('you are eorng');
 
-
-
-
+}
